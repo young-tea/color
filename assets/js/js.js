@@ -12,4 +12,6 @@ function randomx() {
 	document.body.style.backgroundColor = col;
 
 	document.getElementById('lab').innerHTML = col;
+
+	document.getElementById("colorPick").value = col;
 }
